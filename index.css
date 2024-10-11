@@ -1,0 +1,148 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff; /* White background */
+  font-family: 'Nunito', sans-serif;
+  color: #333333; /* Dark text for readability */
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px 30px;
+  background: #f9f9f9; /* Light gray for form background */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth shadow effect */
+}
+
+form:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+a {
+  text-decoration: none;
+  color: #333; /* Dark text for links */
+}
+
+td {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #111; /* Darker color for heading */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: #ffffff; /* White background for inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  font-size: 16px;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  color: #333; /* Dark text color */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset; /* Inner shadow for inputs */
+  margin-bottom: 20px; /* Reduced margin */
+  transition: border-color 0.3s ease; /* Smooth border effect */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #333; /* Dark border on focus */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 8px;
+  border-radius: 4px; /* Rounded corners for select */
+}
+
+button {
+  padding: 15px;
+  color: #FFF;
+  background-color: #000; /* Black button */
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  border: none; /* No border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Button shadow */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth effects */
+}
+
+button:hover {
+  background-color: #444; /* Darker shade on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: none; /* No border for fieldset */
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+#home {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px 30px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.number {
+  background-color: #000; /* Black background for numbers */
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 500px; /* Wider form on larger screens */
+  }
+}
